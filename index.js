@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 // GraphQL query for Github API (https://developer.github.com/v4/)
 const query = `
   query {
-    mui: repository(owner: "mui-org", name: "material-ui") {
+    mui: repository(owner: "mui", name: "material-ui") {
       url
       stargazers {
         totalCount
